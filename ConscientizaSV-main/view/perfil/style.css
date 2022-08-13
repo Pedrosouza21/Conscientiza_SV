@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    overflow: hidden;
+}
+#nome{
+    margin-top: -45%;
+}
+#nome, #email, #idade{    
+    color: #008080;
+    margin-right: 4vw;
+}
+.perfil{
+    vertical-align: middle;
+    border-width: 1px;
+    border-color: transparent;
+    border-style: solid;    
+    margin-left: 37vw;
+    width: 31vmax;
+    height: 41vmin;
+    margin-top: 14%;
+    font-size: 3vmin;
+    text-align: center;
+    background-color: #66b3b3;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: bold;
+}
+.perfil::before{
+    content: '';
+    display: flex;
+    width: 30vmax;
+    height: 40vmin;
+    color: black;
+    background-color: white;
+    border-width: 2px;
+    border-color: #008080;
+    border-style: solid;
+    margin: -1.5vw;
+}
+.recs{
+    background-color: #008080;
+    width: max-content;
+    margin: 0 auto;    
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.recs:hover{
+    cursor: pointer;
+}
+#acoes{
+    width: 100%;   
+    margin-left: 43%; 
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: bold;    
+    font-size: 3vmin;
+}
+a{   
+    color: white;
+    text-decoration: none;
+}
+@media(max-width: 600px){
+    .perfil, #acoes{
+        margin-left: 25%;
+    }
+    .perfil{
+        margin-top: 60%;
+    }
+}

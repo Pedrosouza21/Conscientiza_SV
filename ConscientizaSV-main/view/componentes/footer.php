@@ -1,0 +1,1 @@
+<footer><a class="h1" href="../comoajudar/">Venha ver as dicas para a população!</a></footer>
